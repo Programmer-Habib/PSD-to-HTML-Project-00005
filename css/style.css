@@ -74,6 +74,7 @@ p{
     padding: 2.5rem 3.5rem;
 }
 .row{
+    width: min(96%, 110rem);
     margin: 0 auto;
     padding: 3.5rem 0;
 }
@@ -84,6 +85,9 @@ p{
     color: var(--pColor);
 }
 @media screen and (min-width:1600px) {
+    .row{
+        width: min(96%, 160rem);
+    }
     .buy-now img{
         height: 25rem !important;
     }
